@@ -21,7 +21,7 @@ def post_weather_for weather, link: link
   min     = temperature weather, 'min'
   max     = temperature weather, 'max'
 
-  title   = "#{weather['dateLabel']}の天気 『#{weather['telop']}』"
+  title   = "#{weather['dateLabel']}の天気は 『#{weather['telop']}』だよ！"
   text    = "最低気温 #{min}\n最高気温 #{max}\n#{weather['date']}"
 
   attachments = [{
