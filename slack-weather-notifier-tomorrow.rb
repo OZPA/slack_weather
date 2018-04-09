@@ -51,5 +51,4 @@ attachments = [{
   text: provider
 }]
 
-post_to_slack description, attachments: attachments
 post_weather_for tomorrow, link: link
