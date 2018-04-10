@@ -6,6 +6,7 @@ https://github.com/OZPA/slack_weather.git
 cd slack-weather-notifier
 export WEBHOOK_URL="your team webhook url"
 ruby slack-weather-notifier.rb
+(ruby slack-weather-notifier-today.rb or ruby slack-weather-notifier-tomorrow.rb)
 ```
 
 ## API
